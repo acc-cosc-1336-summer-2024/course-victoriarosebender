@@ -1,5 +1,6 @@
 import unittest
-from tests.homework.c_decisions import tests_decisions
+from tests.homework.d_repetition import tests_repetition
+
 
 '''
 the file in /tests/homework/b_in_proc_out/tests_in_proc_out
