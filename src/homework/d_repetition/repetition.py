@@ -24,7 +24,7 @@ def sum_odd_numbers(num):
 
 def menu():
     print("Homework 3 Menu \n 1-Factorial \n 2-Sum odd numbers \n 3-Exit")
-
+    ##this is the menu
 
 def user_controlled_loop(): 
     choice = 1  
