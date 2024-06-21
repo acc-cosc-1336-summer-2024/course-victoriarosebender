@@ -48,11 +48,16 @@ def run_menu(choice):
 
 
 
-def option_1(num):
+def option_1():
         num = input("Give a number:")
         num = int(num)
         if num > 0 and num < 10:
             print(get_factorial(num))
+        else:
+            num = input("Give a number between 0 and 10:")
+            num = int(num)
+            if num > 0 and num < 10:
+                print(get_factorial(num))          
         
   
 def option_2():
@@ -60,8 +65,9 @@ def option_2():
         num = int(num)
         if num > 0 and num < 100:
             print(sum_odd_numbers(num))
-    
-
-
-
-
+        else:
+            num = input("Give a number between 0 and 100:")
+            num = int(num) 
+            if num > 0 and num < 100:
+                print(sum_odd_numbers(num))
+     
