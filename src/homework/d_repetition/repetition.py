@@ -34,11 +34,11 @@ def user_controlled_loop():
         run_menu(choice)
         
 def run_menu(choice):        
-    if choice == '1':
+    if (choice == '1'):
         option_1()
-    elif choice == '2':
+    elif (choice == '2'):
         option_2()
-    elif choice == '3':
+    elif (choice == '3'):
         print('Exiting')
 
     else:
@@ -48,24 +48,18 @@ def run_menu(choice):
 
 
 
-def option_1():
+def option_1(num):
         num = input("Give a number:")
         num = int(num)
         if num > 0 and num < 10:
-            get_factorial(num)
+            print(get_factorial(num))
+        
   
 def option_2():
         num = input("Give a number:")
         num = int(num)
         if num > 0 and num < 100:
-            sum_odd_numbers(num)
-
-        print("Exit?")
-
-def option_3():
-        print("Continue?")
-        print("Exit?")
-
+            print(sum_odd_numbers(num))
     
 
 
