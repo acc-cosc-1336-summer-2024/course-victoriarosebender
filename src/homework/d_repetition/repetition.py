@@ -23,26 +23,46 @@ def sum_odd_numbers(num):
     return sum
 
 def menu():
-    choice = input("Homework 3 Menu \n 1-Factorial \n 2-Sum odd numbers \n 3-Exit")
+    print("Homework 3 Menu \n 1-Factorial \n 2-Sum odd numbers \n 3-Exit")
 
-def choice == 1:
+
+def user_controlled_loop(): 
+    choice = 1  
+    while( choice != '3'):
+        menu()
+        choice = input("Enter Menu Option: ")
+        run_menu(choice)
+        
+def run_menu(choice):        
+    if choice == '1':
+        option_1()
+    elif choice == '2':
+        option_2()
+    elif choice == '3':
+        print('Exiting')
+
+    else:
+        print('Invalid Input')
+        
+
+
+
+
+def option_1():
         num = input("Give a number:")
         num = int(num)
         if num > 0 and num < 10:
             get_factorial(num)
-        else:
-            num = input("Give a number:")
-            num = int(num)
-            
-            
-        print("Exit?")
-
-    elif choice == 2:
+  
+def option_2():
         num = input("Give a number:")
-        num = float(num)
+        num = int(num)
+        if num > 0 and num < 100:
+            sum_odd_numbers(num)
+
         print("Exit?")
 
-    elif choice == 3:
+def option_3():
         print("Continue?")
         print("Exit?")
 

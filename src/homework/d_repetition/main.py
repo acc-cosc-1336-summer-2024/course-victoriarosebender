@@ -2,4 +2,5 @@
 import repetition 
 
 
-repetition.menu()
+repetition.user_controlled_loop()
+
