@@ -2,7 +2,7 @@ import unittest
 from src.homework.d_repetition.repetition import get_factorial
 from src.homework.d_repetition.repetition import sum_odd_numbers
 from src.examples.d_repetition.repetition import test_config
-
+ 
 class Test_Config(unittest.TestCase):
 
     def test_configuration(self):
