@@ -1,5 +1,6 @@
 import unittest
 from tests.homework.d_repetition import tests_repetition
+from tests.homework.h_strings import tests_strings
 
 
 '''

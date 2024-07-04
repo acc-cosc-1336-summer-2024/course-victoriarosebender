@@ -22,3 +22,14 @@ def get_faculty_rating(ratio):
     else:
         return 'Unacceptable'
 #
+
+
+def pass_it(x, y):
+
+
+    z = x , ", " , y
+
+
+
+
+
