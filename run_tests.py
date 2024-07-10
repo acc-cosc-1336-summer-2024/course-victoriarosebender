@@ -1,6 +1,6 @@
 import unittest
-from tests.homework.d_repetition import tests_repetition
-from tests.homework.h_strings import tests_strings
+from src.homework.i_dictionaries_and_sets import get_p_distance
+from src.homework.i_dictionaries_and_sets import get_p_distance_matrix 
 
 
 '''

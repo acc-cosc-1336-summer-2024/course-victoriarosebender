@@ -15,7 +15,7 @@ class Test_Config(unittest.TestCase):
      
 
     def test_get_dna_complement(self):
-        self.assertEqual(get_p_distance_matrix ([
+        self.assertEqual(get_p_distance_matrix([
  ['T','T','T','C','C','A','T','T','T','A'],
  ['G','A','T','T','C','A','T','T','T','C'],
  ['T','T','T','C','C','A','T','T','T','T'],
