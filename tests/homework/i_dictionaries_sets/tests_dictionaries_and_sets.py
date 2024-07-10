@@ -1,8 +1,8 @@
 #
 
 import unittest
-from src.homework.i_dictionaries_and_sets import get_p_distance
-from src.homework.i_dictionaries_and_sets import get_p_distance_matrix 
+from src.homework.i_dictionaries_and_sets.main import get_p_distance
+from src.homework.i_dictionaries_and_sets.main import get_p_distance_matrix 
 
 
 class Test_Config(unittest.TestCase):
@@ -24,5 +24,4 @@ class Test_Config(unittest.TestCase):
  [0.0, 0.4, 0.1, 0.1],
  [0.4, 0.0, 0.4, 0.3],
  [0.1, 0.4, 0.0, 0.2],
-[0.1, 0.3, 0.2, 0.0]]
-])
+[0.1, 0.3, 0.2, 0.0]])
