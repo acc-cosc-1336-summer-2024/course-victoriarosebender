@@ -10,7 +10,7 @@ class Test_Config(unittest.TestCase):
  
 
     def test_get_p_distance(self):
-        self.assertEqual(get_p_distance(['T','T','T','C','C','A','T','T','T','A'],['G','A','T','T','C','A','T','T','T','C']), 4)
+        self.assertEqual(0.4, get_p_distance(['T','T','T','C','C','A','T','T','T','A'],['G','A','T','T','C','A','T','T','T','C']))
     
      
 
