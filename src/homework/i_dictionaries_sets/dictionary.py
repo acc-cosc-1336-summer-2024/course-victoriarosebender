@@ -27,7 +27,7 @@ def get_p_distance_matrix(matrix1):
     
 
     master_matrix = []
-    ##row1.append(get_p_distance(list1,list2) / len(list1))
+   
 
     for i in range(0,rows):
         row_list = []
