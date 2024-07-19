@@ -10,9 +10,17 @@ class Test_Config(unittest.TestCase):
  
 
     def test_get_rolled_value(self):
+        needed_tests = 3
+        counter = 0
         die = Die()
-        die.roll()
+
+        while counter < needed_tests:
         
-        self.assertIn( die.get_roll_value(), range(1,7))
+            die.roll()
+        
+            self.assertIn( die.get_roll_value(), range(1,7))
+
+            counter += 1
+
     
      
